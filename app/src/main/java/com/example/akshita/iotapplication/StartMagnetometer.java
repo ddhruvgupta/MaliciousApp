@@ -56,7 +56,7 @@ public class StartMagnetometer extends AppCompatActivity implements SensorEventL
 
         String msg = "At" + System.currentTimeMillis() + ": Gyroscope: " + av + " Magnetometer: " + bv + " Rotation: "+rv +  " Gravity: "+grv;
 
-        Toast.makeText(getApplicationContext(),msg, Toast.LENGTH_LONG).show(); // just to check if the app is reading the values
+        //Toast.makeText(getApplicationContext(),msg, Toast.LENGTH_LONG).show(); // just to check if the app is reading the values
         writemsg(msg); // writing the values to the result file
 
     }
